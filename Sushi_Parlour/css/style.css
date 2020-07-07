@@ -262,7 +262,6 @@ body{
 
 .discover{
 	background-color:rgba(69,73,59,0.8);
-	height: 600px;
 }
 
 .container{
@@ -315,6 +314,9 @@ body{
 	font-size: 19px;
 	color:#e7e7e7;
 }
+.discover_img{
+	height: 900px;
+}
 .discover_background_img{
 	width: 100%;
 	height: auto;
@@ -322,7 +324,62 @@ body{
 
 /* BOOK */
 
-.book_img{
+.book{
+}
+.book_title{
+	font-size: 77px;
+	color:#ffffff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.book_input{
 	width: 100%;
-	height: ;
+}
+
+.book_input_blocks{
+	width: 1166px;
+	height: 165px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.book_input_title{
+	font-size: 17px;
+	color:#ffffff;
+	margin-bottom: 20px;
+}
+
+.book_input_input:nth-child(2){
+	margin-top: 40px;
+}
+
+.book_input_content input{
+	background-color: #212121;
+	color: #ffffff;
+	padding-left: 5px;
+	border:1px solid white;
+	border-radius: 8px;
+	height: 25px;
+	font-size: 17px;
+	margin-top: 8px;
+	width: 240px;
+}
+.book_submit {
+	text-align: center;
+}
+
+.book_submit button{
+	margin: 0 auto;
+	background-color: #212121;
+	color: #ffffff;
+	border:1px solid white;
+	border-radius: 8px;
+	height: 30px;
+	width: 240px;
+	font-size: 17px;
+	margin: 40px 0 70px;	
+}
+.book_img_img{
+	width: 100%;
 }
