@@ -40,14 +40,21 @@ body{
 .nav a{
 	font-size: 35px;
 	color:#afc67b;
+	opacity: 78%;
 }
+
 
 .header_block{
 	margin-left: 55%;
 	width: 45%;
 	height: 590px;
 }
+.header_block_logo img{
+	width: 150px;
+	height: auto;
+}
 .header_block_subtitle{
+	margin-top: 100px;
 	font-size: 57px;
 	color:#afc67b;
 	text-transform: uppercase;
@@ -225,6 +232,7 @@ body{
 .menu_content_block_text_price{
 	color:#e8e8e8;
 	font-size: 25px;
+	font-weight: 700;
 
 }
 
@@ -313,6 +321,7 @@ body{
 .discover_price{
 	font-size: 19px;
 	color:#e7e7e7;
+	font-weight: 700;
 }
 .discover_img{
 	height: 900px;
@@ -452,4 +461,87 @@ body{
 }
 .discover-new_block_text_more a{
 	border-bottom: 6px solid #afc67b;
+}
+
+/* LINK-BLOCKS */
+
+.link-block{
+	height: 340px;
+	text-align: center;
+	padding-top: 40px;
+}
+.link-block_normal-text{
+	margin:0 auto;
+	margin-top: 22px;
+	width: 700px;
+	color: #aac078;
+	font-size: 19px;
+}
+.link-block_title{
+	margin-top: 20px;
+	color:#afc67b;
+	font-size: 33px;
+	line-height: 1.2;
+}
+.link-block_subtitle{
+	margin-top: 15px;
+	font-size: 25px;
+	color:#afc67b;
+}
+.link-block_links{
+	margin:0 auto;
+	margin-top: 30px;
+	width: 340px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer{
+	height: 320px;
+	background-color:rgba(69,73,59,0.8);
+}
+.footer_container{
+	margin:0 auto;
+	width: 80%;
+	padding: 65px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_container_big-block{
+	width: 350px;
+}
+
+.footer_container_big-block_title{
+	font-size: 25px;
+	line-height: 1.2;
+	color:#e7e7e7;
+	text-transform: uppercase;
+}
+.footer_container_big-block_text{
+	margin-top: 35px;
+	color:#e7e7e7;
+	font-size: 19px;
+	line-height: 1.5;
+}
+.footer_container_blocks{
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_container_blocks_block{
+	width: 100px;
+}
+.footer_container_blocks_block_title{
+	font-weight: 700;
+	font-size: 21px;
+	color:#e7e7e7;
+	text-transform: uppercase;
+}
+.footer_container_blocks_block_text{
+	margin-top: 40px;
+	font-size: 21px;
+	color:#e7e7e7;
+
 }
