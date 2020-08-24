@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 	<head>
+		<title>Sushi Parlour</title>
 		<meta charset="utf-8">
 		<link href="#" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Sushi Parlour</title>
 	</head>
 	<body>
 		<!--HEADER-->
@@ -32,7 +33,7 @@
 		<div class="new">
 			<div class="new_text">
 				<div class="new_text_title">What do we actually cook?</div>
-				<div class="new_text_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates error id non veniam facilis eum nisi, expedita, provident illo Voluptates error id non veniam facilis eum nisi, expedita, providentLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates error id non veniam facilis eum nisi, expedita, provident illo Voluptates error id non veniam  </div>
+				<div class="new_text_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates error id non veniam facilis eum nisi, expedita, provident illo Voluptates error id non veniam facilis eum nisi, expedita, providentLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates error id non veniam facilis eum nisi, expedita, provident illo Voluptates error id non veniam</div>
 			</div>
 			<img src="img/smoll/new_img.jpg" alt="#" class="new_img">
         </div>
@@ -283,67 +284,64 @@
 		<div class="book">
 			<div class="book_title">Book here</div>
 			<div class="book_input">
+				<form action="js.js">
+					<div class="book_input_blocks">
+						<div class="book_input_blocks_block">
+								
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="people">How many people?</label>
+								<div class="book_input_content"><input type="text" id="people" name="people" placeholder="2 people"></div>
+								</div>
+							</div>
 
-				<div class="book_input_blocks">
-					<div class="book_input_blocks_block">
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="name">Name</label>
+								<div class="book_input_content"><input type="text" id="name"  name="name" placeholder="Full name"></div>
+								</div>
+							</div>
 							
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="people">How many people?</label>
-							<div class="book_input_content"><input type="text" id="people" name="input" value="2 people"></div>
-							</div>
-						</div>
+						</div><!--/book_input_blocks_block-->
 
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="name">Name</label>
-							<div class="book_input_content"><input type="text" id="name"  name="input" value="Full name"></div>
+						<div class="book_input_blocks_block">
+								
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="date">When is your date?</label>
+								<div class="book_input_content"><input type="datetime-local"  id="date" name="date" value=""></div>
+								</div>
 							</div>
-						</div>
-						
-					</div><!--/book_input_blocks_block-->
 
-					<div class="book_input_blocks_block">
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="email">Email</label>
+								<div class="book_input_content"><input type="email" id="email" name="email" placeholder="Your email address"></div>
+								</div>
+							</div>
 							
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="date">When is your date?</label>
-							<div class="book_input_content"><input type="datetime-local"  id="date" name="input" value=""></div>
+						</div><!--/book_input_blocks_block-->
+
+
+						<div class="book_input_blocks_block">
+								
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="time">Time</label>
+								<div class="book_input_content"><input type="text" id="time" name="time" placeholder="10:00 am"></div>
+								</div>
 							</div>
-						</div>
 
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="email">Email</label>
-							<div class="book_input_content"><input type="email" id="email" value="Your email address"></div>
+							<div class="book_input_input">
+								<div class="book_input_title"><label for="tel">Phone</label>
+								<div class="book_input_content"><input type="tel" id="tel" name="tel" placeholder="Your phone"></div>
+								</div>
 							</div>
-						</div>
-						
-					</div><!--/book_input_blocks_block-->
-
-
-					<div class="book_input_blocks_block">
 							
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="time">Time</label>
-							<div class="book_input_content"><input type="text" id="time" name="input" value="10:00 am"></div>
-							</div>
-						</div>
+						</div><!--/book_input_blocks_block-->
 
-						<div class="book_input_input">
-							<div class="book_input_title"  ><label for="tel">Phone</label>
-							<div class="book_input_content"><input type="tel" id="tel" name="input" value="Your phone"></div>
-							</div>
-						</div>
-						
-					</div><!--/book_input_blocks_block-->
+					</div><!--/book_input_blocks-->
 
-					
-				</div><!--/book_input_blocks-->
-				
-
-			
-			<div class="book_submit"><button class="book_submit_button">Submit</button></div>
-
-			<div class="book_img">
-				<img src="img/book_img.jpg" alt="#" class="book_img_img">
-			</div>
+					<div class="book_submit"><input type="submit" value="submit" class="submit"></div>
+				</form> 
+				<div class="book_img">
+					<img src="img/book_img.jpg" alt="#" class="book_img_img">
+				</div>
 		
 			</div><!--/book_input-->
 		</div>

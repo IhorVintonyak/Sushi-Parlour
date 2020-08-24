@@ -17,6 +17,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 body{
 	background-color: #212121;
+	max-width: 2000px;
+	min-width: 600px;
+	margin:0 auto;
 }
 
 /* HEADER */
@@ -109,6 +112,7 @@ body{
 	color:#afc67b;
 	font-size: 29px;
 	margin-bottom: 40px;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .new_text_text{
 	color:#d4d4d4;
@@ -164,6 +168,7 @@ body{
 	color:#eaeaea;
 	margin-bottom: 40px;
 	line-height: 1.5;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .blocks_block_text{
 	color:#eaeaea;
@@ -171,6 +176,7 @@ body{
 	line-height: 1.5;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
+
 }
 
 /* MENU */
@@ -202,6 +208,7 @@ body{
 	font-size: 46px;
 	line-height: 1.5;
 	text-transform: uppercase;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .menu_inner_title{
 	font-size: 41px;
@@ -224,6 +231,8 @@ body{
 
 .menu_content_block{
 	width: 25%;
+	max-height:285px;
+	overflow: hidden;
 }
 
 
@@ -244,6 +253,7 @@ body{
 	font-size: 29px;
 	margin-bottom: 25px;
 	padding-top: 50px;
+	font-family: 'Black And White Picture', sans-serif;
 
 }
 .menu_content_block_text_text{
@@ -252,6 +262,7 @@ body{
 	margin-bottom: 22px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+	overflow: hidden;
 }
 .menu_content_block_text_price{
 	color:#e8e8e8;
@@ -278,6 +289,7 @@ body{
 	color: #afc67b;
 	padding-top: 110px;
 	margin-bottom:25px;
+	font-family: 'Black And White Picture', sans-serif;
 }
 
 .transition_content_text{
@@ -299,8 +311,13 @@ body{
 }
 
 .container{
+	margin:0 auto;
 	height: 100%;
+	max-width: 1600px;
 	padding:30px 100px 50px;
+}
+.discover_text{
+	margin:0 auto;
 }
 .discover_text_main{
 	text-align: center;
@@ -309,6 +326,7 @@ body{
 .discover_text_main_title{
 	font-size: 71px;
 	color: #e7e7e7;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .discover_text_main_subtitle{
 	font-size: 46px;
@@ -336,6 +354,7 @@ body{
 	font-size: 25px;
 	color:#e7e7e7;
 	margin-bottom: 15px;
+	font-family: 'Black And White Picture', sans-serif;
 
 }
 .discover_line_text_text{
@@ -344,6 +363,7 @@ body{
 	line-height: 1.2;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+	overflow: hidden;
 }
 .discover_line_text{
 	margin-left: 10px;
@@ -370,10 +390,12 @@ body{
 	color:#ffffff;
 	text-align: center;
 	padding-top: 20px;
+	font-family: 'Black And White Picture', sans-serif;
 }
 
 .book_input{
 	width: 100%;
+	margin-top: 30px;
 }
 
 .book_input_blocks{
@@ -408,11 +430,16 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
+
+input:focus{
+	border:5px solid black;
+}
+
 .book_submit {
 	text-align: center;
 }
 
-.book_submit button{
+.submit{
 	margin: 0 auto;
 	background-color: #212121;
 	color: #ffffff;
@@ -426,7 +453,7 @@ body{
 	text-transform: uppercase;
 }
 
-.book_submit button:hover{
+.submit:hover{
 	background-color: #ffff;
 	color:#000;
 }
@@ -451,6 +478,7 @@ body{
 .discover-new_text_title{
 	font-size: 77px;
 	color: #afc67b;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .discover-new_text_subtitle{
 	font-size: 48px;
@@ -498,6 +526,7 @@ body{
 	margin-top: 5px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+	overflow: hidden;
 }
 .discover-new_block_text_more{
 	font-size: 14px;
@@ -512,7 +541,7 @@ body{
 }
 
 .discover-new_block_text_more a:hover{
-	border-top: 6px solid #afc67b;
+	border-bottom: none;
 }
 
 /* LINK-BLOCKS */
@@ -530,12 +559,14 @@ body{
 	font-size: 19px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+	overflow: hidden;
 }
 .link-block_title{
 	margin-top: 20px;
 	color:#afc67b;
 	font-size: 33px;
 	line-height: 1.2;
+	font-family: 'Black And White Picture', sans-serif;
 }
 .link-block_subtitle{
 	margin-top: 15px;
@@ -549,7 +580,10 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+.link-block_links a:hover{
+	background-color: black;
 
+}
 /* FOOTER */
 
 footer{
@@ -612,17 +646,16 @@ footer{
 	margin-top: 40px;
 	font-size: 21px;
 	color:#e7e7e7;
+	overflow: hidden;
 }
 .footer_container_blocks_block_text_element{
 	padding-top: 8px;
 }
 .footer_container_blocks_block_text_element a{
 	color:#e7e7e7;
-	padding:5px;
+	margin-bottom: 5px;
 }
 
 .footer_container_blocks_block_text_element a:hover{
-	background-color: #ffff;
-	color:#000;
-	border-radius: 12px;
+	border-bottom: 3px solid black;
 }
